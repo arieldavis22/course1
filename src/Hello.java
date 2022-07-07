@@ -11,6 +11,16 @@ public class Hello {
      */
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        // Text in quote called a literal string
+        System.out.println("Hello Ariel!");
+
+        // Ints in Java can hold a max of 32 bits of space.
+        int myFirstNum = 5;
+        int mySecondNumber = 12;
+        int myThirdNumber = 6;
+        int myTotal = myFirstNum + mySecondNumber + myThirdNumber;
+        int myLastOne = myTotal - 1000;
+        System.out.println(myLastOne);
+
     }
 }
