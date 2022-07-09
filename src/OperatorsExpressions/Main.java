@@ -27,5 +27,21 @@ public class Main {
         result %= 3;
         System.out.println("remainder: " + result);
 
+
+        boolean isAlien = false;
+        if (isAlien == false) {
+            System.out.println("Not an alien");
+            System.out.println("something else");
+        }
+
+        int topScore = 100;
+        if (topScore != 100) {
+            System.out.println("You got the top score");
+        }
+
+        int secondTopScore = 60;
+        if (topScore > secondTopScore && topScore < 100) {
+            System.out.println("yay");
+        }
     }
 }
